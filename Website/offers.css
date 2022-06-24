@@ -1,0 +1,81 @@
+.myForm {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 0.8em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    }
+     p{
+      margin-left: 50%;
+    }
+    
+    .myForm * {
+    box-sizing: border-box;
+    }
+    .myForm label {
+    font-size: 0.9em;
+    }
+    
+    .myForm .field {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+    }
+    .myForm input {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 0.9em;
+    padding: 0.5em;
+    }
+    
+    .myForm button {
+    padding: 0.7em;
+    border-radius: 0.5em;
+    background: #eee;
+    border: none;
+    font-weight: bold;
+    margin-left: 1.5em;
+    }
+    
+    .myForm button:hover {
+    background: #ccc;
+    cursor: pointer;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+    
+      li a:hover {
+        background-color: #009688;
+      }
+      li {
+        display: inline;
+      }
+    body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    }

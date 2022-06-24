@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+<link rel="stylesheet" href="offers.css">
+<title>login page</title>
+
+</head>
+<body>
+    <ul>
+        <li><a href="home.html" class="logo">Activity Center</a></li>
+        <li><a href="coures.html" class="navigation">Courses</a></li>
+        <li><a href="schedule.html" class="navigation">Schedule</a></li>
+        <li><a href="offers.html" class="navigation">Register</a></li>
+    </ul>
+  <br><br>
+  
+<form action="connect.php" class="myForm" method="post" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
+<p>
+  <label class="field" for="user_name">Name</label>
+  <input type="text" pattern="[A-Za-z\s]{1,32}" id="user_name" name="user_name" required placeholder="name">
+</p>
+
+<p>
+  <label class="field" for="user_age">Age</label>
+  <input type="number" id="user_age" name="user_age" required placeholder="age">
+</p>
+
+<p>
+  <label class="field" for="user_name">Department</label>
+  <input type="text" id="user_department" name="user_department" required placeholder="department">
+</p>
+
+<p>
+  <label class="field" for="user_phone">Phone number</label>
+  <input type="number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="user_phone"  name="user_phone" required placeholder="phone">
+</p>
+
+<p>
+  <label class="field" for="user_email">Email</label>
+  <input type="email"id="user_email" name="user_email" required placeholder="Email">
+</p>
+
+<p>
+  <button>submit</button>
+</p>
+
+
+</form>
+
+</body>
+</html>
