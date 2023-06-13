@@ -3,8 +3,8 @@
 <p>
   <h3>Document Word File includes all steps of the project in details which contatins:</h3>
   <ol>
- <li> suitable Logo for the project </li>
- <li> expressed Slogan for the project idea </li>
+ <li> Suitable Logo for the project </li>
+ <li> Expressed Slogan for the project idea </li>
  <li> Introduction Section </li>
  <li> Planning function </li>
  <li> Organizing function </li>
